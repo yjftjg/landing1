@@ -11,7 +11,7 @@ body{
 
 .navigation{
     height: 64px;
-    padding: 20px 0px 24px 16px;
+    padding: 20px 0 24px 16px;
     border-bottom: black solid 1px;
 
 }
@@ -43,8 +43,12 @@ body{
     align-items: center;
 }
 
+.alert p{
+    margin-right: 50px;
+}
+
 .headerText{
-    margin: 0px 20px 65px 20px;
+    margin: 0 20px 65px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,4 +71,91 @@ body{
 
 header img{
     width: 100%;
+}
+
+.what-we-do{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.what-we-do-header{
+    margin-top: 100px;
+    margin-bottom: 85px;
+}
+
+.what-we-do-header h2{
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.info-cards-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 920px;
+}
+
+.info-cards-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 60px;
+}
+
+.info-cards-hero h2{
+    font-size: 16px;
+    margin: 50px 0 40px 0;
+}
+
+.info-cards-hero p{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.info-cards{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+
+.info-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 57px 80px;
+}
+
+.info-card p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.info-card h2{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.second-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.second-img img{
+    width: 85%;
 }
