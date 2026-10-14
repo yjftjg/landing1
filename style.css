@@ -5,6 +5,10 @@
     font-family: "Gowun Batang", serif;
 }
 
+a{
+    color: black;
+}
+
 body{
     background-color: #FFFFFF;
 }
@@ -158,4 +162,110 @@ header img{
 
 .second-img img{
     width: 85%;
+}
+
+.latest-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 64px 48px;
+}
+
+.latest-news-header h2{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 85px;
+}
+
+.latest-news-hero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px;
+    border-radius: 10px;
+    border: rgb(228 228 228) solid 1px;
+}
+
+.latest-news-hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 73px 0 73px 40px;
+    text-align: center;
+}
+
+.latest-news-hero-content h2{
+    margin: 40px 0;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.latest-news-hero-content p{
+    font-size: 16px;
+
+}
+
+.latest-news-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.latest-news-card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 80px;
+    border-radius: 10px;
+    border: rgb(228 228 228) solid 1px;
+    margin: 20px 20px 0 0;
+}
+
+.latest-news-card1 p{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.latest-news-card1 h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.latest-news-card1 img{
+    width: 70%;
+}
+
+.latest-news-card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 80px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: rgb(228 228 228) solid 1px;
+}
+
+.latest-news-card2 p{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.latest-news-card2 h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 20px 0;
 }
